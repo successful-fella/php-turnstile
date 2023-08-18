@@ -58,7 +58,7 @@ class Response
      */
     public static function deserialize(string $jsonResponse)
     {
-        $response = new self;
+        $response = new Response;
         $deserializedResponse = json_decode($jsonResponse, true);
         if (!$deserializedResponse || empty($deserializedResponse)) {
             return $response;
