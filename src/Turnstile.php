@@ -1,6 +1,6 @@
 <?php
 
-namespace FluxSoft\Turnstile;
+namespace SuccessfulFella\Turnstile;
 
 class Turnstile
 {
